@@ -1,0 +1,47 @@
+/**
+* SPAWN
+* -p = position [0 - 10]
+* -s = speed pixels/second
+* -r = respawn delay in seconds
+* -t = tile
+*	0 = car_1_left
+*	1 = car_2_left
+*	2 = car_3_left
+*	3 = car_1_right
+*	4 = car_2_right
+*	5 = car_3_right
+*	6 = leaf_1
+*	7 = leaf_2
+*	8 = trunk
+* -d = direction [left=0 or right=1]
+* -e = enemy [no=0 or yes=1]
+*/
+
+SPAWN -p 0 -s 64 -r 2 -t 5 -d 1 -e 1
+SPAWN -p 1 -s 32 -r 4 -t 1 -d 0 -e 1
+SPAWN -p 2 -s 90 -r 2 -t 3 -d 1 -e 1
+
+SPAWN -p 4 -s 64 -r 2 -t 8 -d 1 -e 0
+SPAWN -p 5 -s 32 -r 4 -t 8 -d 0 -e 0
+SPAWN -p 6 -s 64 -r 6 -t 8 -d 1 -e 0
+
+SPAWN -p 8 -s 110 -r 1 -t 8 -d 0 -e 0
+SPAWN -p 9 -s 80 -r 2 -t 8 -d 1 -e 0
+SPAWN -p 10 -s 128 -r 3 -t 8 -d 0 -e 0
+
+/**
+* SET
+* -x = x index
+* -y = y index
+* -t = tile
+*	0 = car_1_left
+*	1 = car_2_left
+*	2 = car_3_left
+*	3 = car_1_right
+*	4 = car_2_right
+*	5 = car_3_right
+*	6 = leaf_1
+*	7 = leaf_2
+*	8 = trunk
+* -e = enemy [no=0 or yes=1]
+*/
